@@ -32,7 +32,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * The test also includes the {@link SauceOnDemandTestWatcher} which will invoke the Sauce REST API to mark
  * the test as passed or failed.
  *
- * @author Neil Manvar
+ * @author Kristian
  */
 @RunWith(ConcurrentParameterized.class)
 public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
@@ -164,7 +164,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void loginTest() throws Exception {
         driver.get("http://www.myfitnesspal.com/");
-        WebDriverWait wait = new WebDriverWait(driver, 10); // wait for a maximum of 10 seconds
+        WebDriverWait wait = new WebDriverWait(driver, 10); // wait for a maximum of 69c9ea29-59c8-4b3a-9909-18b1b05343f6 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("facebook-jssdk")));
         driver.findElement(By.linkText("Log In")).click();
         Thread.sleep(5000);
