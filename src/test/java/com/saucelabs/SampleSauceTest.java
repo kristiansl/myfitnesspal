@@ -116,8 +116,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"OSX 10.10", "38", "firefox", "Mac 10.10 Firefox 38"});
         browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
         browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
-        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});    
+        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"});   
         browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
  
         return browsers;
