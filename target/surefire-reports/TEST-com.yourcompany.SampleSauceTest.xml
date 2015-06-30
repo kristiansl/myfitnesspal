@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="24" failures="0" name="com.yourcompany.SampleSauceTest" time="1,180.339" errors="1" skipped="0">
+<testsuite tests="20" failures="0" name="com.yourcompany.SampleSauceTest" time="479.635" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
@@ -62,81 +62,24 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="12.248"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="9.888"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="43.978"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="13.257"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="24.662"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="161.797"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="23.936"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="14.187"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="24.795"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="37.798"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="30.068"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="36.096"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="54.986"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="12.413"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="0.002">
-    <error message="unknown error: Element is not clickable at point (1051, 677). Other element would receive the click: &lt;div id=&quot;fancybox-overlay&quot; style=&quot;opacity: 0.7; cursor: pointer; height: 4715px; display: block; background-color: rgb(0, 0, 0);&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=43.0.2357.65)
-  (Driver info: chromedriver=2.15.322455 (ae8db840dac8d0c453355d3d922c91adfb61df8f),platform=Mac OS X 10.10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 229 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;kristians-MacBook-Air.local&apos;, ip: &apos;10.35.4.116&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_40&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/bl/1800rz_j7blcqx8pthyrq59h0000gn/T/.org.chromium.Chromium.H48VbU}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=43.0.2357.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=f7b986c6f5114506a0bd3ba9284ff489, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f7b986c6f5114506a0bd3ba9284ff489" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1051, 677). Other element would receive the click: &lt;div id=&quot;fancybox-overlay&quot; style=&quot;opacity: 0.7; cursor: pointer; height: 4715px; display: block; background-color: rgb(0, 0, 0);&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=43.0.2357.65)
-  (Driver info: chromedriver=2.15.322455 (ae8db840dac8d0c453355d3d922c91adfb61df8f),platform=Mac OS X 10.10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 229 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;kristians-MacBook-Air.local&apos;, ip: &apos;10.35.4.116&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_40&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/bl/1800rz_j7blcqx8pthyrq59h0000gn/T/.org.chromium.Chromium.H48VbU}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=43.0.2357.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=f7b986c6f5114506a0bd3ba9284ff489, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f7b986c6f5114506a0bd3ba9284ff489
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
-	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-</error>
-    <system-out>SauceOnDemandSessionID=f7b986c6f5114506a0bd3ba9284ff489 job-name=com.yourcompany.SampleSauceTest.loginTest[6]
-Job link: https://saucelabs.com/jobs/f7b986c6f5114506a0bd3ba9284ff489?auth=b5d67b821f5a77cb64d0014e890e8cff
-</system-out>
-  </testcase>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="65.487"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="276.621"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="11.906"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="43.672"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="174.123"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="24.6"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="25.971"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="44.766"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="13.082"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="29.569"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="14.417"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="24.5"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="19.498"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="11.93"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="30.666"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="16.793"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="25.496"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="59.861"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="23.743"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="13.382"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="28.119"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="16.28"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="30.8"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="28.54"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="12.915"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="24.748"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="11.776"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="15.66"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="40.942"/>
 </testsuite>
