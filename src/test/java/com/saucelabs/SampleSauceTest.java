@@ -164,7 +164,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void loginTest() throws Exception {
         driver.get("http://www.myfitnesspal.com/");
-        WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
+        WebDriverWait wait = new WebDriverWait(driver, 10); // wait for a maximum of 10 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("facebook-jssdk")));
         driver.findElement(By.linkText("Log In")).click();
         Thread.sleep(5000);
