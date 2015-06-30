@@ -173,7 +173,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.cssSelector("input[type='submit']")).click();
         Thread.sleep(5000);
      
-     
+      
     } 
 
     /**
