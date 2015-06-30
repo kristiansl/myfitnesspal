@@ -108,8 +108,9 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
         browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-        browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
+        browsers.add(new String[]{"Windows 8.1", "38", "firefox", "Windows 8.1 Firefox 38"});
+        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});
+        browsers.add(new String[]{"Windows 7", "9", "internet explorer", "Windows 7 IE 9"});  
         browsers.add(new String[]{"Windows XP", "36", "firefox", "Windows 8 Firefox 36"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
         browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
@@ -121,8 +122,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
  
         return browsers;
     }
-
-     
+    
     /** 
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the {@link #browser},
      * {@link #version} and {@link #os} instance variables, and which is configured to run against ondemand.saucelabs.com, using
@@ -165,7 +165,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     @Test
     public void loginTest() throws Exception {
-        driver.get("www.myfitnesspal.com");
+        driver.get("http://www.myfitnesspal.com/");
         WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("facebook-jssdk")));
         driver.findElement(By.linkText("Log In")).click();

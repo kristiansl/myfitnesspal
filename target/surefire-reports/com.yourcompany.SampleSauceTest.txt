@@ -1,4 +1,473 @@
 -------------------------------------------------------------------------------
 Test set: com.yourcompany.SampleSauceTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.942 sec
+Tests run: 22, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 924.521 sec <<< FAILURE!
+loginTest[2](com.yourcompany.SampleSauceTest)  Time elapsed: 0.006 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32603,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=42.0.2311.90)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 5.2 SP2 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 192 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\scoped_dir1100_32569}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=42.0.2311.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=5ddd863a3fd04cd9bb5435ea43e54192, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5ddd863a3fd04cd9bb5435ea43e54192
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+loginTest[3](com.yourcompany.SampleSauceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: f.QueryInterface is not a function
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'chef-win2003', ip: '172.20.32.82', os.name: 'Windows 2003', os.arch: 'x86', os.version: '5.2', java.version: '1.7.0_45'
+Driver info: driver.version: unknown
+Command duration or timeout: 372 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=36.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=738e57104d3f48289a0bed9f23eefc8c, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 738e57104d3f48289a0bed9f23eefc8c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.WebDriverException: f.QueryInterface is not a function
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'chef-win2003', ip: '172.20.32.82', os.name: 'Windows 2003', os.arch: 'x86', os.version: '5.2', java.version: '1.7.0_45'
+Driver info: driver.version: unknown
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.get(file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/anonymous4066213585884746379webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10132)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/anonymous4066213585884746379webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/anonymous4066213585884746379webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/anonymous4066213585884746379webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+
+loginTest[6](com.yourcompany.SampleSauceTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for presence of element located by: By.id: facebook-jssdk
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=8.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=de6099f1b5664a9fb28b3b0fec78b2e6, platformVersion=8.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: de6099f1b5664a9fb28b3b0fec78b2e6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:171)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=8.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=de6099f1b5664a9fb28b3b0fec78b2e6, platformVersion=8.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: de6099f1b5664a9fb28b3b0fec78b2e6
+*** Element info: {Using=id, value=facebook-jssdk}
+	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:103)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 22 more
+
+loginTest[10](com.yourcompany.SampleSauceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: f.QueryInterface is not a function
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'WIN-HLEK05V71GA', ip: '172.20.33.63', os.name: 'Windows Server 2012', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+Command duration or timeout: 173 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=36.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=7b45fff64b504270b96b241ddab3f2c5, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b45fff64b504270b96b241ddab3f2c5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.WebDriverException: f.QueryInterface is not a function
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'WIN-HLEK05V71GA', ip: '172.20.33.63', os.name: 'Windows Server 2012', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.get(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8409821141915930089webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10132)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8409821141915930089webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8409821141915930089webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8409821141915930089webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+
+loginTest[9](com.yourcompany.SampleSauceTest)  Time elapsed: 0 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32603,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=42.0.2311.90)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 5.2 SP2 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 245 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\scoped_dir1064_28135}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=42.0.2311.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=105c68a8b0af4ec39fa9b0ea381342da, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 105c68a8b0af4ec39fa9b0ea381342da
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+loginTest[5](com.yourcompany.SampleSauceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for presence of element located by: By.id: facebook-jssdk
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=a9fd2efe71ed4470bcf24fa5cd7ccfa7, platformVersion=19, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
+Session ID: a9fd2efe71ed4470bcf24fa5cd7ccfa7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:171)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Element was not found.
+io.selendroid.exceptions.NoSuchElementException: Element was not found.
+	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
+	at io.selendroid.server.handler.FindElement.safeHandle(FindElement.java:45)
+	at io.selendroid.server.SafeRequestHandler.handle(SafeRequestHandler.java:83)
+	at io.selendroid.server.AndroidServlet.handleRequest(AndroidServlet.java:319)
+	at io.selendroid.server.BaseServlet.handleHttpRequest(BaseServlet.java:67)
+	at io.selendroid.server.http.ServerHandler.channelRead(ServerHandler.java:53)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.traffic.AbstractTrafficShapingHandler.channelRead(AbstractTrafficShapingHandler.java:223)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:148)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:430)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:384)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:841)
+
+Command duration or timeout: 5.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=a9fd2efe71ed4470bcf24fa5cd7ccfa7, platformVersion=19, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
+Session ID: a9fd2efe71ed4470bcf24fa5cd7ccfa7
+*** Element info: {Using=id, value=facebook-jssdk}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:103)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 22 more
+Caused by: org.openqa.selenium.NoSuchElementException: Element was not found.
+io.selendroid.exceptions.NoSuchElementException: Element was not found.
+	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
+	at io.selendroid.server.handler.FindElement.safeHandle(FindElement.java:45)
+	at io.selendroid.server.SafeRequestHandler.handle(SafeRequestHandler.java:83)
+	at io.selendroid.server.AndroidServlet.handleRequest(AndroidServlet.java:319)
+	at io.selendroid.server.BaseServlet.handleHttpRequest(BaseServlet.java:67)
+	at io.selendroid.server.http.ServerHandler.channelRead(ServerHandler.java:53)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.traffic.AbstractTrafficShapingHandler.channelRead(AbstractTrafficShapingHandler.java:223)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:148)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:430)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:384)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:841)
+
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+
+loginTest[4](com.yourcompany.SampleSauceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for presence of element located by: By.id: facebook-jssdk
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{webdriver.remote.sessionid=806e9f549c3d47c9bf2aceb0bfad3c33, takesScreenshot=true, browserName=safari, javascriptEnabled=true, hasMetadata=true, version=6.0.5, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: 806e9f549c3d47c9bf2aceb0bfad3c33
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:171)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element: {"using":"id","value":"facebook-jssdk"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: 'fbe29a9', time: '2014-02-19 20:54:28'
+System info: host: 'itako21093.prod.miso', ip: '172.20.21.93', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_65'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, cssSelectorsEnabled=true, javascriptEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=6.0.5}]
+Command duration or timeout: 45 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{webdriver.remote.sessionid=806e9f549c3d47c9bf2aceb0bfad3c33, takesScreenshot=true, browserName=safari, javascriptEnabled=true, hasMetadata=true, version=6.0.5, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: 806e9f549c3d47c9bf2aceb0bfad3c33
+*** Element info: {Using=id, value=facebook-jssdk}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:103)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 22 more
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element: {"using":"id","value":"facebook-jssdk"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: 'fbe29a9', time: '2014-02-19 20:54:28'
+System info: host: 'itako21093.prod.miso', ip: '172.20.21.93', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_65'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, cssSelectorsEnabled=true, javascriptEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=6.0.5}]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'kristians-MacBook-Air.local', ip: '10.35.4.116', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_40'
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:367)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+
