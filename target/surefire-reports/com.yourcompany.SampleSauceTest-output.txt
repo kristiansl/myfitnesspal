@@ -1,2 +1,2 @@
-SauceOnDemandSessionID=5920f34d32f249b1a40debba9f30d214 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
-SauceOnDemandSessionID=b40f606588d24136981d3cb4c466dc14 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[0]
+SauceOnDemandSessionID=a148e6cd9d184055ab34b2e33a794523 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
+SauceOnDemandSessionID=2d540fdc9a944b6eac3f25736d1534b7 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[0]
