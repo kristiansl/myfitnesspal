@@ -113,16 +113,16 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 7", "9", "internet explorer", "Windows 7 IE 9"});  
         browsers.add(new String[]{"Windows XP", "36", "firefox", "Windows 8 Firefox 36"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
+        browsers.add(new String[]{"OSX 10.10", "38", "firefox", "Mac 10.10 Firefox 38"});
         browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
         browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
         browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-        browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
+        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});    
         browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
  
         return browsers;
     }
-    
+
     /** 
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the {@link #browser},
      * {@link #version} and {@link #os} instance variables, and which is configured to run against ondemand.saucelabs.com, using
