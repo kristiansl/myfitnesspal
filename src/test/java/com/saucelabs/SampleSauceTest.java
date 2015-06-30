@@ -155,7 +155,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public void verifyTitleTest() throws Exception {
         driver.get("http://www.myfitnesspal.com/");
         assertEquals("Free Calorie Counter, Diet & Exercise Journal | MyFitnessPal.com", driver.getTitle());
-    }
+    } 
 
     /**
      * Go to 
